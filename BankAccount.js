@@ -41,13 +41,5 @@ class BankAccount {
   }
 }
 
-
 module.exports = BankAccount;
-  
-  // Example usage
-//   const account = new BankAccount();
-//   account.deposit(1000, "2023-01-10");
-//   account.deposit(2000, "2023-01-13");
-//   account.withdraw(500, "2023-01-14");
-//   account.printStatement();
   
