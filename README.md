@@ -49,3 +49,26 @@ Run the tests
 ```
 $ jest
 ```
+
+### Usage
+# Example:
+
+Initialise Node REPL
+```
+$ node
+```
+
+Import the BankAccount class into Node and initiate a new class object
+```
+const BankAccount = require('./BankAccount');
+
+const myAccount = new BankAccount();
+```
+
+Example usage
+```
+myAccount.deposit(1000);
+myAccount.deposit(2000);
+myAccount.withdraw(500);
+myAccount.printStatement();
+```
