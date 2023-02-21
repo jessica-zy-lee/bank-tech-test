@@ -32,15 +32,20 @@ date || credit || debit || balance
 10/01/2023 || 1000.00 || || 1000.00
 ```
 
-### Installation
+### Set-up
 
 Clone this repository
 ```
 $ git clone https://github.com/jessica-zy-lee/bank-tech-test
 ```
 
-Navigate to project file and install dependencies:
+Navigate to the project directory and install dependencies
 ```
-$ cd bank_tech_test
-$ bundle install
+$ cd bank-tech-test
+$ npm install
+```
+
+Run the tests
+```
+$ jest
 ```
