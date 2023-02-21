@@ -31,3 +31,16 @@ date || credit || debit || balance
 13/01/2023 || 2000.00 || || 3000.00
 10/01/2023 || 1000.00 || || 1000.00
 ```
+
+### Installation
+
+Clone this repository
+```
+$ git clone https://github.com/jessica-zy-lee/bank-tech-test
+```
+
+Navigate to project file and install dependencies:
+```
+$ cd bank_tech_test
+$ bundle install
+```
